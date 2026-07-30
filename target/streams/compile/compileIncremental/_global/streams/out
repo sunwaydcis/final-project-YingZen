@@ -1,0 +1,24 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 0 products, 0 sources, 0 libraries
+[debug] current source = Set(${BASE}/src/main/scala/persistence/CSVSerializer.scala, ${BASE}/src/main/scala/models/Loan.scala, ${BASE}/src/main/scala/models/Repayment.scala, ${BASE}/src/main/scala/ui/RepaymentScreen.scala, ${BASE}/src/main/scala/ui/AppScreen.scala, ${BASE}/src/main/scala/ui/MicrofinanceApp.scala, ${BASE}/src/main/scala/ui/AppState.scala, ${BASE}/src/main/scala/models/Borrower.scala, ${BASE}/src/main/scala/ui/DashboardScreen.scala, ${BASE}/src/main/scala/persistence/CSVDataStore.scala, ${BASE}/src/main/scala/ui/LoanScreen.scala, ${BASE}/src/main/scala/ui/BorrowerScreen.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/ui/BorrowerScreen.scala, ${BASE}/src/main/scala/ui/RepaymentScreen.scala, ${BASE}/src/main/scala/ui/AppScreen.scala, ${BASE}/src/main/scala/models/Repayment.scala, ${BASE}/src/main/scala/ui/DashboardScreen.scala, ${BASE}/src/main/scala/persistence/CSVDataStore.scala, ${BASE}/src/main/scala/ui/AppState.scala, ${BASE}/src/main/scala/ui/MicrofinanceApp.scala, ${BASE}/src/main/scala/persistence/CSVSerializer.scala, ${BASE}/src/main/scala/models/Loan.scala, ${BASE}/src/main/scala/ui/LoanScreen.scala, ${BASE}/src/main/scala/models/Borrower.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] Full compilation, no sources in previous analysis.
+[debug] all 12 sources are invalidated
+[debug] Initial set of included nodes: 
+[debug] Recompiling all sources: number of invalidated sources > 50.0 percent of all sources
+[debug] compilation cycle 1
+[info] compiling 12 Scala sources to C:\Users\Zen\PRG2104\Project_24007908\target\scala-3.8.4\classes ...
+[debug] Returning already retrieved and compiled bridge: C:\Users\ktiew\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-sbt-bridge\3.8.4\scala3-sbt-bridge-3.8.4.jar.
+[debug] [zinc] Running cached compiler 298fbda9 for Scala Compiler version 3.8.4
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-release
+[debug] 	21
+[debug] 	-Wunused:all
+[debug] 	-Wconf:cat=deprecation:s,msg=.*Implicit parameters.*:s
+[debug] 	-bootclasspath
+[debug] 	C:\Users\ktiew\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.8.4\scala3-library_3-3.8.4.jar;C:\Users\ktiew\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\3.8.4\scala-library-3.8.4.jar
+[debug] 	-classpath
+[debug] 	C:\Users\Zen\PRG2104\Project_24007908\target\scala-3.8.4\classes;C:\Users\ktiew\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalafx\scalafx_3\21.0.0-R32\scalafx_3-21.0.0-R32.jar;C:\Users\ktiew\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\openjfx\javafx-base\21\javafx-base-21.jar;C:\Users\ktiew\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\openjfx\javafx-controls\21\javafx-controls-21.jar;C:\Users\ktiew\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\openjfx\javafx-fxml\21\javafx-fxml-21.jar;C:\Users\ktiew\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\openjfx\javafx-graphics\21\javafx-graphics-21.jar;C:\Users\ktiew\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\openjfx\javafx-media\21\javafx-media-21.jar;C:\Users\ktiew\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\openjfx\javafx-swing\21\javafx-swing-21.jar;C:\Users\ktiew\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\openjfx\javafx-web\21\javafx-web-21.jar;C:\Users\ktiew\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\openjfx\javafx-base\21\javafx-base-21-win.jar;C:\Users\ktiew\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\openjfx\javafx-controls\21\javafx-controls-21-win.jar;C:\Users\ktiew\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\openjfx\javafx-fxml\21\javafx-fxml-21-win.jar;C:\Users\ktiew\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\openjfx\javafx-graphics\21\javafx-graphics-21-win.jar;C:\Users\ktiew\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\openjfx\javafx-media\21\javafx-media-21-win.jar;C:\Users\ktiew\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\openjfx\javafx-swing\21\javafx-swing-21-win.jar;C:\Users\ktiew\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\openjfx\javafx-web\21\javafx-web-21-win.jar
+[debug] Scala compilation took 11.6364584 s
+[info] done compiling

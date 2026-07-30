@@ -117,6 +117,8 @@ class DashboardScreen extends AppScreen {
   }
   
   // Set change listener on filter Combo
+  // ai-assisted: #13
+  // why: Binds risk filter ComboBox selection property to dynamically filter TableView items.
   filterCombo.selectionModel().selectedItem.onChange { (_, _, _) =>
     refreshDashboard()
   }
