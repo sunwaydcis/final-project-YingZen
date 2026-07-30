@@ -5,8 +5,6 @@ import persistence._
 import scalafx.collections.ObservableBuffer
 import scala.util.Try
 
-// ai-assisted: #10
-// why: Centralizes reactive ObservableBuffer state management and auto-persistence hooks.
 object AppState {
   
   // Data stores using our generic CSVDataStore and implicit serializers
