@@ -82,7 +82,7 @@ Follow these steps to run the application on a clean development environment:
 
 This project was developed under **Tier C (AI-Integrated)** guidelines.
 - **AI Tools Used:** Cursor, Claude 3.7 Sonnet, ChatGPT (GPT-4o).
-- **Log Location:** `ai/interaction_log.md` (10 detailed interaction entries).
+- **Log Location:** `ai/interaction_log.md` (20 detailed interaction entries).
 - **Declaration:** `ai/declaration.md` (Signed academic honesty declaration).
 - **In-Code Tagging:** `// ai-assisted: #N` blocks paired with `// why: <reason>` explanations across UI components.
 - **AI Reflection:** `docs/ai_reflection.md` (300-500 word critique of AI utility, hallucinations, and manual design decisions).
