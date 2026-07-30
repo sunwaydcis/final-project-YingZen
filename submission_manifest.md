@@ -28,7 +28,7 @@
 | Metric | Required | Your value |
 |---|---|---|
 | Number of classes / traits in src/main/scala | ≥ 5 | 18 |
-| Number of `// ai-assisted: #N` tags in src/ | ≥ 3 | 17 |
+| Number of `// ai-assisted: #N` tags in src/ | ≥ 3 | 13 |
 | Number of entries in ai/interaction_log.md | ≥ 10 | 20 |
 | Distinct dates in docs/dev_log.md | ≥ 5 | 13 |
 | Word count of docs/reflection.md | 350–700 | 436 |
