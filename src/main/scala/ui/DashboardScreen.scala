@@ -172,6 +172,8 @@ class DashboardScreen extends AppScreen {
       }
     }
     
+    // ai-assisted: #4
+    // why: Displays alert dialog pop-ups with headerText = None, replacing AI hallucinated null parameter with None to fix ScalaFX ambiguity.
     result match {
       case scala.util.Success(_) =>
         new Alert(AlertType.Information) {
@@ -188,8 +190,6 @@ class DashboardScreen extends AppScreen {
     }
   }
   
-  // ai-assisted: #4
-  // why: Implements the default risk assessment logic and handles writing the risk report to a file.
   override val view: VBox = new VBox(15) {
     padding = Insets(20)
     style = "-fx-background-color: #f8fafc;"
