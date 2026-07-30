@@ -130,7 +130,8 @@ class BorrowerScreen extends AppScreen {
         add(dependentsField, 1, 4)
       }
       
-      // Bind Enter key inside any field to submit the form
+      // ai-assisted: #14
+      // why: Binds Enter key press on text field inputs to trigger form registration.
       idField.onAction = handle { registerBorrower() }
       nameField.onAction = handle { registerBorrower() }
       villageField.onAction = handle { registerBorrower() }

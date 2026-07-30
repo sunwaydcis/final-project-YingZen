@@ -9,6 +9,8 @@ import scalafx.geometry.Insets
 import scalafx.beans.property.StringProperty
 import scalafx.util.StringConverter
 
+// ai-assisted: #9
+// why: Constructs repayment form controls and connects button action handlers.
 class RepaymentScreen extends AppScreen {
   
   // Input fields
@@ -100,6 +102,8 @@ class RepaymentScreen extends AppScreen {
       .sum
   }
   
+  // ai-assisted: #16
+  // why: Deducts repayment amounts functionally using immutable state copies and updates loan status.
   private def logRepayment(): Unit = {
     val selectedLoan = loanCombo.selectionModel().getSelectedItem
     val repaymentIdText = repaymentIdField.text.value
