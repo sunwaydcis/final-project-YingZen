@@ -161,8 +161,6 @@ class RepaymentScreen extends AppScreen {
     }.showAndWait()
   }
   
-  // ai-assisted: #3
-  // why: Constructs the repayment logging view, connecting dynamic calculations of remaining balance to input validation checks.
   override val view: VBox = new VBox(15) {
     padding = Insets(20)
     style = "-fx-background-color: #f8fafc;"
