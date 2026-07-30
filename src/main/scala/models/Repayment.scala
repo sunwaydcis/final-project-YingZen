@@ -10,6 +10,8 @@ case class Repayment(
 )
 
 object Repayment {
+  // ai-assisted: #15
+  // why: Enforces data validation rules on repayment records.
   def validate(
     repaymentId: String,
     loanId: String,

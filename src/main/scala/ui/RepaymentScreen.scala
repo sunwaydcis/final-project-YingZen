@@ -9,6 +9,8 @@ import scalafx.geometry.Insets
 import scalafx.beans.property.StringProperty
 import scalafx.util.StringConverter
 
+// ai-assisted: #9
+// why: Constructs repayment form controls and connects button action handlers.
 class RepaymentScreen extends AppScreen {
   
   // Input fields
