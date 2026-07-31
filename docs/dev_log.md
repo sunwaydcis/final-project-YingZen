@@ -71,16 +71,16 @@ This log tracks the complete chronological development progress of the ScalaFX S
   * Tested empty string parsing fallback mechanisms in `CSVSerializer[T]`.
 
 ## 2026-07-30
-* **Activity:** Demonstration Video Walkthrough & Keyboard Navigation.
+* **Activity:** Keyboard Navigation & Visual Accessibility Polish.
 * **Progress:**
-  * Recorded feature demonstration video (`docs/demo.mp4`) showcasing end-to-end operation of all 4 system features (Borrowers, Loans, Repayments, Dashboard).
   * Audited GUI accessibility to ensure Tab key navigation moves sequentially through form fields (`S2-10`).
   * Wired default Enter key submission triggers on primary action buttons across all 4 screens.
   * Adjusted container margins and grid cell paddings to maintain consistent ≥ 8px section spacing (`S2-9`).
 
 ## 2026-07-31
-* **Activity:** AI Prompt Tagging & Reflection Documentation.
+* **Activity:** Demonstration Video Walkthrough & Reflection Documentation.
 * **Progress:**
+  * Recorded feature demonstration video (`docs/demo.mp4`) showcasing end-to-end operation of all 4 system features (Borrowers, Loans, Repayments, Dashboard).
   * Added `// ai-assisted: #N` blocks paired with sibling `// why: <reason>` comments across UI source code (`S4-5`, `S4-6`).
   * Completed Template 2 (`ai/interaction_log.md`) with 20 entries capturing iterative prompting and domain context.
   * Signed Template 3 (`ai/declaration.md`) and completed personal reflection (`docs/reflection.md`) and AI reflection (`docs/ai_reflection.md`).
