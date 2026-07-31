@@ -83,7 +83,7 @@ This log tracks the complete chronological development progress of the ScalaFX S
   * Recorded feature demonstration video (`docs/demo.mp4`) showcasing end-to-end operation of all 4 system features (Borrowers, Loans, Repayments, Dashboard).
   * Added `// ai-assisted: #N` blocks paired with sibling `// why: <reason>` comments across UI source code (`S4-5`, `S4-6`).
   * Completed Template 2 (`ai/interaction_log.md`) with 20 entries capturing iterative prompting and domain context.
-  * Signed Template 3 (`ai/declaration.md`) and completed personal reflection (`docs/reflection.md`) and AI reflection (`docs/ai_reflection.md`).
+  * Completed personal reflection (`docs/reflection.md`) and AI reflection (`docs/ai_reflection.md`).
 
 ## 2026-08-01
 * **Activity:** Viva Voce Walkthrough & Code Defense Practice.
@@ -94,5 +94,5 @@ This log tracks the complete chronological development progress of the ScalaFX S
 * **Activity:** Final Submission Verification & Packaging.
 * **Progress:**
   * Verified clean compilation with `sbt --no-server clean compile` yielding 0 warnings under Java 21 release target.
-  * Conducted final structure audit matching Page 5 requirements and signed `submission_manifest.md`.
+  * Conducted final structure audit matching Page 5 requirements, signed Template 3 (`ai/declaration.md`), and signed `submission_manifest.md`.
   * Verified ZIP bundle ready for Elearn submission.
